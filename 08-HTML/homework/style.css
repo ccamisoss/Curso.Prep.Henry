@@ -3,9 +3,9 @@ img{
 #thirdDiv{
     height: 600px;
     width: 500px;
-    background: lightsteelblue;
+    background: rgb(240, 240, 255);
     padding: 50px;
-    border: thick orchid;}
+    border: 3mm ridge rgb(207, 164, 206);}
 #spanId{
     font-size: 18px;
     margin: 50px;}    
