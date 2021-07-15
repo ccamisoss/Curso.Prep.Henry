@@ -6,9 +6,10 @@ function obtenerMayor(x, y) {
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
   if (x>y){
-    return x
+    return x;
   }else{ 
-    return y}
+    return y;
+  }
 }
 
 function mayoriaDeEdad(edad) {
@@ -170,8 +171,7 @@ function esPrimo(numero) {
       return false
     }
   }
-  return true;
-  
+  return true; 
 }
 
 function esVerdadero(valor){
@@ -180,7 +180,9 @@ function esVerdadero(valor){
   //Escribe tu código aquí
 if (valor===true){
   return "Soy verdadero";
-}else{ return "Soy falso";}
+}else{ 
+  return "Soy falso";
+}
 }
 
 function tablaDelSeis(){
@@ -189,7 +191,7 @@ function tablaDelSeis(){
   //Escribe tu código aquí  
   var array = [];
   for(i=0;i<=10;i++){
-    array.push(6*i)
+    array.push(6*i);
   }
   return array;
 }
